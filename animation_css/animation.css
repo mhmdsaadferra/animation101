@@ -1,0 +1,138 @@
+*{
+    margin: 0px 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ } 
+ body{
+    height: 866.7px;
+    letter-spacing: 2px;
+}
+ .animation_div{
+    height: 109vh;
+    background-image: url(../animation_gry/road.2.jpg);
+    background-size: cover;
+    position: relative;
+}
+.animation_big_line{
+    width:  201.6vh;
+    height: 16px;
+    /* background-color: rgb(182, 178, 42); */
+    /* background-color:#f7b801; */
+    background-color:royalblue;
+    /* background-color:#a4133c; */
+
+
+    
+}
+.div_animation{
+    /* border: 2px solid green; */
+    width:  210px;
+    height: 130px;
+    margin: 12px 0px;
+    /* position: absolute; */
+    
+}
+.animation_car{
+    width:  100%;
+    height: 100%;
+}
+.animation_small_line{
+    width:  230px;
+    height: 38px;
+    background-color: azure;
+    float: left;
+}
+.line2{
+    margin: 0px 70px;
+}
+.line1{
+    /* margin: 0px 26px; */
+    margin-left: 40px;
+}
+.car2{
+    /* margin: 12px 960px; */
+    margin-top: 12px;
+    margin-left: 1309px;
+    
+}
+.animation_lines{
+    margin-top: 65px;
+}
+.car3{
+    /* margin: 12px 960px; */
+    margin-top: 12px;
+}
+.line3{
+    margin-top: 69px;
+}
+.animation_1{
+    animation-name: Mater ;
+
+    animation-duration: 3s ;  
+    animation-delay:  2s ;
+    animation-fill-mode: forwards
+
+}
+@keyframes Mater {
+    from{margin-left: 0px;}
+    to{margin-left:1309px;}
+}
+.animation_2{
+    animation-name: Doc ;
+
+    animation-duration: 3s ;  
+    animation-delay:  5s ;
+    animation-fill-mode: forwards
+
+}
+
+@keyframes Doc  {
+   
+    from{margin-left:0px;}
+    
+   to{margin-left:-1309px;}
+}
+.animation_3{
+    animation-name:  McQueen ;
+
+    animation-duration: 3s ;  
+    animation-delay:  8s ;
+    animation-fill-mode: forwards
+
+}
+@keyframes  McQueen {
+    from{margin-left: 0px;}
+    to{margin-left:1309px;}
+}
+.animation_4{
+    animation-name: Hicks ;
+
+    animation-duration: 3s ;  
+    animation-delay:  11s ;
+    animation-fill-mode: forwards
+
+}
+
+@keyframes  Hicks {
+   
+    from{margin-left:0px;}
+    
+   to{margin-left:-1309px;}
+}
+.animation_title{
+    color: royalblue;
+    text-align: center;
+    /* float: left; */
+
+}
+.animation_div_icons{
+    /* float: left; */
+    margin-left: 970px;
+    margin-top: -27px;
+    /* color:  #a4133c; */
+    font-size: 28px;
+    color: gray;
+}
+.animation_div_first{
+    margin: 16px 0px;
+}
